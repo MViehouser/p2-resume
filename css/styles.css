@@ -1,12 +1,97 @@
 /* Your Website Styles */
 body {
-	background: #eee;
+	background: url("../img/fabric.png");
+	font-family: 'Cardo', serif;
 }
 
 
-div {
-	margin-top: -60px;	x 
+h1 {
+	color: #C6CAD3
 }
+
+h2 {
+	text-align: left;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 5px;
+	background-color: #38424E;
+	border-top-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+	color: #C6CAD3;
+}
+
+h4 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+
+/*NAVIGATION*/
+
+section ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+
+nav ul li {
+  list-style: none;
+  float: left;
+  margin: 0 4px 0 4px;
+}
+
+
+nav a:link,
+nav a:visited  {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+
+nav a:hover,
+nav a:active {
+	color: rgb(13, 202, 250);
+}
+
+nav a:focus {
+  border: 1px dotted #000;
+}
+
+
+/*IDENTIFICATION*/
+
+#phone a:hover {
+	background: url("../img/phon_logo.png") no-repeat left center;
+}
+
+#email  a:hover {
+	background: url("../img/email_logo.png") no-repeat left center;
+}
+
+#github  a:hover {
+	background: url("../img/github.png") no-repeat left center;
+}
+
+#codepen a:hover {
+	background: url("../img/codepen_logo.png") no-repeat left;
+}
+
+
+/*********************CLASSES*/
+
+.experience {
+	display: block;
+}
+
+
 
 
 /* Show Grid */
