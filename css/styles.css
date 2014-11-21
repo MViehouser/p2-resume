@@ -5,7 +5,7 @@ body {
 	margin-top: 20px;
 }
 
-/*********Header*/
+/*********Heade*************************************/
 
 header {
 	margin-top: -10px;
@@ -27,25 +27,25 @@ header nav ul li {
 
 }
 
-
-
-/***********Headlines*/
+/*************************************Headlines**************************************/
 
 h1 {
-	color: #C6CAD3
+	color: #5290C8;
+	font-size: 2.2em;
 }
 
 h2 {
 	text-align: left;
-	font-size: 30px;
-	text-transform: uppercase;
-	padding: 5px;
+	font-size: 1.7em;
+	color: #94DBFE;
+	text-indent: 20px;
+	margin: 10px;
+}
+
+h2 {
 	background-color: #38424E;
 	border-top-left-radius: 25%;
 	border-bottom-right-radius: 25%;
-	color: #C6CAD3;
-	text-indent: 10px;
-	margin: 10px;
 }
 
 h3 {
@@ -53,8 +53,12 @@ h3 {
 	text-align: center;
 }
 
+h3 ~ h4 {
+	text-align: center;
+}
 
-/*NAVIGATION*/
+
+/**********************************NAVIGATION************************************/
 
 
 section nav ul li {
@@ -66,10 +70,11 @@ section nav ul li {
 
 nav a:link,
 nav a:visited  {
-  color: #333;
+  color: #2F84A9;
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 10px 10px 32px;
+  font-size: 1.2em;
 }
 
 nav a:hover,
@@ -103,14 +108,15 @@ nav a:focus {
 
 /**********PARAGRAGHS********************************/
 
-/*Skills Paragraph*/
+/*Education & Volunteering Paragraph*/
 section ul li {
-	display: inline-block;
+	display: list-item;
+	list-style: 
 }
 
 p {
 	font-family: 'Gentium Book Basic', serif;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	text-align: center;
 }
 
