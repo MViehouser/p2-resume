@@ -2,8 +2,34 @@
 body {
 	background: url("../img/fabric.png");
 	font-family: 'Cardo', serif;
+	margin-top: 20px;
 }
 
+/*********Header*/
+
+header {
+	margin-top: -10px;
+	position: fixed;
+	background-color: #38424E;
+	text-align: left;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 45px;
+	text-decoration: none;
+}
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline-block;
+
+}
+
+
+
+/***********Headlines*/
 
 h1 {
 	color: #C6CAD3
@@ -18,32 +44,22 @@ h2 {
 	border-top-left-radius: 25%;
 	border-bottom-right-radius: 25%;
 	color: #C6CAD3;
+	text-indent: 10px;
+	margin: 10px;
 }
 
-h4 {
+h3 {
 	text-transform: uppercase;
 	text-align: center;
 }
 
-p {
-	font-family: 'Gentium Book Basic', serif;
-	font-size: 1.2em;
-	text-align: center;
-}
-
-
 
 /*NAVIGATION*/
 
-section ul li {
-	list-style: none;
-	display: inline-block;
-}
 
-
-nav ul li {
+section nav ul li {
   list-style: none;
-  float: left;
+  float: right;
   margin: 0 4px 0 4px;
 }
 
@@ -85,11 +101,33 @@ nav a:focus {
 }
 
 
-/*********************CLASSES*/
+/**********PARAGRAGHS********************************/
 
-.experience {
-	display: block;
+/*Skills Paragraph*/
+section ul li {
+	display: inline-block;
 }
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
