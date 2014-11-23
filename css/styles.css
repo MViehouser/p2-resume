@@ -116,13 +116,15 @@ section ul li {
 
 p {
 	font-family: 'Gentium Book Basic', serif;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	text-align: center;
 }
 
 
 
-
+footer {
+	font-size: .5em;
+}
 
 
 
